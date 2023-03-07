@@ -1,71 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" rel="stylesheet" >
+    <link href="style.css" rel="stylesheet">
     <title>html tast</title>
 </head>
+
 <body>
     <div>
-        <p>6/6/2022</p>  
-        <p>Page 1/2</p>
+        <p>6/6/2022</p>
+        <p id="date">Page 1/2</p>
     </div>
-<div class="container">
-<div>
-    <h1>FEUILLE D'EMARGEMENT</h1>
-<p>Stage de Sensibilisation à la Sécurité Routière</p>
-</div>
+    <div class="container">
+        <div>
+            <p id="title">FEUILLE D'EMARGEMENT</p>
+            <p id="paragraph">Stage de Sensibilisation à la Sécurité Routière</p>
+        </div>
+        <br>
+        <br>
+        <div>
+            <p id="description">Nom de l'établissement chargé d'organiser le stage :<strong>SUD OISE CONDUITE</strong>
+            </p>
+            <p id="description">Numéro d'agrément :<strong>R1906000020 -David BOURDILLAT</strong></p>
+            <p id="description">Prénom et nom de l'exploitant de l'établissement : <strong>David BOURDILLAT</strong>
+            </p>
+        </div>
+        <br>
+        <div>
+            <p>L'encadrement technique et administratif du stage est assuré par :
+            </p>
+            <p>- l'exploitant de l'établissement ..... <input type="checkbox" id="input"></p>
+            <p>- une personne désignée ................<input type="checkbox" id="input">Prénom et nom:<strong> Mickaël
+                    AUBERT</strong> </p>
 
-<div>
-    <p>Nom de l'établissement chargé d'organiser le stage :<strong>SUD OISE CONDUITE</strong> </p>
-    <p>Numéro d'agrément :<strong>R1906000020 -David BOURDILLAT</strong></p>
-    <p>Prénom et nom de l'exploitant de l'établissement : <strong>David BOURDILLAT</strong>
-    </p>
-</div>
-<br>
-<div>
-   <p>L'encadrement technique et administratif du stage est assuré par :</p> 
-   <p><input type="checkbox">- l'exploitant de l'établissement ..... </p>
-   <p>- une personne désignée ................ </p>
-   <input type="checkbox">
-   <p> Prénom et nom:<strong> Mickaël AUBERT</strong></p>
-</div>
-<br>
-<div>
-    <p>Adresse du lieu du stage :<strong> Rue Louis Saint Just, 60740 SAINT-MAXIMIN</strong>
-    </p>
-    <br>
-    <p>Dates* et horaires** du stage :</p>
-    <p>1 er jour :<strong> 14/10/2019</strong> - Horaires : Matin : de <strong>09:00</strong> à <strong>12:30 </strong>Après-midi : de<strong> 13:30 </strong>à <strong>17:00</strong></p>
-</div>
-<div>
-    <p>2 ème jour :<strong>15/10/2019</strong>- Horaires : Matin : de <strong>09:00</strong> à <strong>12:30</strong> Après-midi : de <strong>13:30</strong> à <strong>17:00</strong></p>
-    <p>* un stage ne peut pas se tenir le dimanche et les jours fériés sous peine de non validation du stage
-    </p>
-    <p>** un stage ne peut pas se dérouler à des horaires correspondant à du travail de nuit sous peine de non validation du stage</p>
-</div>
-<br>
-<br>
-<div>
-    <table>
-       <tr height="300">
-        <th width="375">Signature de l'exploitant de l'établissement et cachet
-            de l'établissement
-            </th>
-            <th width="130">Ou</th>
-            <th width="400">Signature de la personne ayant assuré l'accueil et
-                l'encadrement technique et administratif du stage et
-                cachet de l'établissement
-                </th>
-       </tr>
-    </table>
-    <div>
-        <p>La grille doit être renseignée conformément aux prescriptions suivantes :</p>
+        </div>
+
+        <div>
+            <p id="list">Adresse du lieu du stage :<strong> Rue Louis Saint Just, 60740 SAINT-MAXIMIN</strong>
+            </p>
+            <br>
+            <p id="dates">Dates* et horaires** du stage :</p>
+            <p id="strong">1 er jour :<strong> 14/10/2019</strong> - Horaires : Matin : de <strong>09:00</strong> à
+                <strong>12:30 </strong>Après-midi : de<strong> 13:30 </strong>à <strong>17:00</strong></p>
+        </div>
+        <div>
+            <p>2 ème jour :<strong>15/10/2019</strong>- Horaires : Matin : de <strong>09:00</strong> à
+                <strong>12:30</strong> Après-midi : de <strong>13:30</strong> à <strong>17:00</strong></p>
+            <p id="jour">* un stage ne peut pas se tenir le dimanche et les jours fériés sous peine de non validation du
+                stage
+            </p>
+            <p id="jour">** un stage ne peut pas se dérouler à des horaires correspondant à du travail de nuit sous
+                peine de non validation du stage</p>
+        </div>
+        <br>
+        <br>
+        <div>
+            <table id="table">
+                <tr height="300">
+                    <th width="375">Signature de l'exploitant de l'établissement et cachet
+                        de l'établissement
+                    </th>
+                    <th width="130">Ou</th>
+                    <th width="400">Signature de la personne ayant assuré l'accueil et
+                        l'encadrement technique et administratif du stage et
+                        cachet de l'établissement
+                    </th>
+                </tr>
+            </table>
+        </div>
+            <div>
+                <p id="para"><u>La grille doit être renseignée conformément aux prescriptions suivantes :</u>
+                </p>
+                <Ul>
+                    <li>En début de stage, toutes les lignes vides correspondant à des stagiaires absents sont barrées
+                    </li>
+                    <li>Au début de chaque demi-journée :
+                        - chaque stagiaire appose sa signature dans la cellule correspondante ;
+                        - en cas d'absence d'un stagiaire, la cellule correspondante est barrée, ainsi que celles, le
+                        cas échéant, des demi-journées
+                        suivantes</li>
+                    <li>En cas de départ d'un stagiaire en cours de stage, la cellule correspondante est barrée, ainsi
+                        que celles, le cas échéant,
+                        des demi-journées suivantes.</li>
+                </Ul>
+            </div>
+     
+
     </div>
-</div>
-
-</div>
 </body>
+
 </html>

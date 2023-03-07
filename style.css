@@ -1,8 +1,49 @@
 .container{
-    border: 1px solid black;
+    border: 2px solid black;
     height: 100%;
-    width: 100%;
+    width: 70%;
 }
 table, tr, th{
     border: 1px solid black;
+}
+*{
+    margin-left: 1%;
+}
+#date{
+    margin-left: 65%;
+    margin-top: -2.3%;
+}
+#title{
+    font-size: 20px;
+    margin-left: 40%;
+}
+#paragraph{
+    margin-left: 39%;
+    margin-top: -2.3%;
+}
+#description{
+    margin-top: -1.5%;
+}
+#input{
+    margin-left: -0%;
+}
+#list{
+    margin-top: 3%;
+}
+#dates{
+    margin-top: -1%;
+}
+#strong{
+    margin-top: -1.5%;
+}
+#jour{
+  margin-top: -1.5%;
+  font-size: 14px;
+}
+#table{
+    margin-top: -1.5%;
+    
+}
+#para{
+    margin-top: 3%;
 }
